@@ -1,4 +1,5 @@
 import numpy as np
+from scipy.interpolate import RegularGridInterpolator
 
 def modis_geo_interp_500(lalo):
     res = np.zeros(2*np.array(lalo.shape))
